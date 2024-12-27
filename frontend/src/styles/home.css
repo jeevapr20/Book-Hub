@@ -1,0 +1,24 @@
+.book-display{
+    display: flex;
+    justify-content: center;
+}
+
+#field::placeholder{
+    color: rgb(250, 250, 251);
+    background-color: black;
+}   
+#field:focus{
+    color: rgb(250, 250, 251);
+    background-color: black;
+}
+
+.book-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid aqua; 
+  border-radius: 8px; 
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  }
